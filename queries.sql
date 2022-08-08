@@ -1,7 +1,7 @@
 /*Queries that provide answers to the questions from all projects.*/
 
-1-	SELECT * FROM students WHERE last_name LIKE '%liam';
-2-	SELECT * from animals where date_of_birth BETWEEN DATE '2016-01-01' AND DATE '2019-12-31';
+1-	SELECT * FROM animals WHERE last_name LIKE '%mon';
+2-	SELECT * FROM animals WHERE date_of_birth BETWEEN DATE '2016-01-01' AND DATE '2019-12-31';
 3-	SELECT date_of_birth, name FROM animals WHERE name IN ('Agumon', 'Pikachu');
 4-	SELECT name, escape_attempts FROM animals WHERE weight_kg > 10.5;
 5-	SELECT * FROM animals WHERE neutered=’true’;
