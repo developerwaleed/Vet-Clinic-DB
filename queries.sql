@@ -64,3 +64,53 @@ WHERE date_of_birth
 BETWEEN DATE '1990-01-01' 
 AND DATE '2000-12-31' 
 GROUP BY species;
+
+SELECT name, full_name 
+FROM animals INNER 
+JOIN owners 
+ON animals.id = owners.id 
+WHERE full_name = 'Melody Pond';
+
+SELECT animals.name 
+from animals 
+LEFT JOIN species 
+ON animals.id = species.id 
+WHERE animals.species_id = (SELECT id FROM species WHERE name = 'Pokemon');
+
+SELECT full_name, name 
+FROM animals FULL 
+JOIN owners
+ON animals.owner_id = owners.id;
+
+SELECT COUNT(*), species.name AS Specie 
+FROM animals 
+LEFT JOIN species 
+ON species_id = species.id 
+GROUP BY species.id;
+
+SELECT full_name AS owner, species.name AS Speice 
+FROM animals 
+JOIN owners 
+ON animals.owner_id = owners.id 
+JOIN species 
+ON animals.species_id = species.id
+WHERE owners.full_name = ('Jennifer Orwell') 
+AND species.name = 'Digimon';
+
+SELECT full_name AS owner, species.name AS Speice 
+FROM animals 
+JOIN owners 
+ON animals.owner_id = owners.id 
+JOIN species 
+ON animals.species_id = species.id 
+WHERE owners.full_name = ('Dean Winchester') 
+AND escape_attempts = 0;
+
+SELECT COUNT(*), owners.full_name AS owner 
+FROM animals 
+JOIN owners 
+ON animals.owner_id = owners.id 
+GROUP BY owners.full_name 
+ORDER BY COUNT(*) DESC 
+LIMIT 1;
+
