@@ -84,7 +84,7 @@ ON animals.owner_id = owners.id;
 
 SELECT COUNT(*), species.name AS Specie 
 FROM animals 
-RIGHT JOIN species 
+LEFT JOIN species 
 ON species_id = species.id 
 GROUP BY species.id;
 

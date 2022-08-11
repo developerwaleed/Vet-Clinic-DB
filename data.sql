@@ -33,8 +33,8 @@ SET species_id = (SELECT id FROM species WHERE name = 'Digimon')
 WHERE name LIKE '%mon';
 
 UPDATE animals 
-SET species_id = (SELECT id FROM species WHERE name = 'Digimon')
-WHERE name LIKE '%mon';
+SET species_id = (SELECT id FROM species WHERE name = 'Pokemon')
+WHERE WHERE species_id IS NULL;
 
 UPDATE animals 
 SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith') 
