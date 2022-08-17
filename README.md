@@ -1,31 +1,22 @@
-# curriculum-databases-projects-template
+# Vet Clinic Database
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+Relatonal Database is used to create the data structure for a Vet_Clinic;
+
+
+![ERD](ERD.png)
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To setup the project locally: clone the repository using:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
+```
+git clone https://github.com/developerwaleed/Vet-Clinic-DB.git
+```
 
 ## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -36,13 +27,35 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+# Vet Clinic Database
 
-## Acknowledgments
+Relatonal Database is used to create the data structure for a Vet_Clinic;
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
+![drawSQL-export-2022-07-12_13_14](https://user-images.githubusercontent.com/50721479/178487325-f165c1df-4abd-43a4-9725-da596174c60d.png)
 
-This project is [MIT](./MIT.md) licensed.
+
+## Getting Started
+
+To setup the project locally: clone the repository using:
+
+```
+git clone git@github.com:ha-manel/Vet-Clinic-DB.git
+```
+
+## Authors
+
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+|Shahnawaz Ali|[@shahnawaza75](https://github.com/shahnawaza75)|
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
